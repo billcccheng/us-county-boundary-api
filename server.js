@@ -15,9 +15,7 @@ var allowCrossDomain = function(req, res, next) {
     }
 };
 
-app.use(express.bodyParser());
 app.use(allowCrossDomain);
-app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 
 app.get('/api',function(req, res){
 	fs.readFile(__dirname + '/states/' + req.query.state + '.json', function(err, data){
