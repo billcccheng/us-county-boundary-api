@@ -1,5 +1,4 @@
-# us-county-boundary-api
-US County Boundary RESTFUL API
+#US County Boundary RESTFUL API
 I was doing this project which required me to shade the selected counties of the users. 
 Despite searching the web, I did not find any API supporting this. Strange thing is that
 I though Google MAP API would support this but...no...yeah...it gives you the shaded area
