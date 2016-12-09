@@ -1,5 +1,5 @@
 {
-  "name": "heroku-node",
+  "name": "us-county-boundary-api",
   "description": "Our sample Node to Heroku app",
   "main": "server.js",
   "scripts": {
