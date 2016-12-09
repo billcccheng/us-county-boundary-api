@@ -38,9 +38,9 @@ function getCoordinates(data){
 	return polishedCoordinates;
 }
 
-var server = app.listen(3000, function(){
-	var host = server.address().address;
+var server = app.listen(process.env.PORT||8080, function(){
+//	var host = server.address().address;
 	var port = server.address().port;
-	console.log("Listening at http://%s:%s",host,port);
+	console.log("App running on port %s ",port);
 });
 
