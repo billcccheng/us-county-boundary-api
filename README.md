@@ -5,7 +5,7 @@ I thought Google MAP API would support this but...no...yeah...it gives you the s
 of the counties but not the borders.
 
 So I went online to search for the county boundaries and found a lot of different source,
-but all were really unorganized. I decided to parse the information down and write a small
+but were all really unorganized. I decided to parse the information down and write a small
 API using NodeJS as a side project (also to practice NodeJS since I just started learning NodeJS).
 
 So I have deployed this to Heroku and the data can be fetched from:
