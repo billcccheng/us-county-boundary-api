@@ -1,12 +1,12 @@
 #US County Boundary RESTFUL API
 I was doing this project which required me to shade the selected counties of the users. 
 Despite searching the web, I did not find any API supporting this. Strange thing is that
-I though Google MAP API would support this but...no...yeah...it gives you the shaded area
+I thought Google MAP API would support this but...no...yeah...it gives you the shaded area
 of the counties but not the borders.
 
 So I went online to search for the county boundaries and found a lot of different source,
 but all were really unorganized. I decided to parse the information down and write a small
-API using NodeJS as a side project(also to practice NodeJS since I just started learning NodeJS).
+API using NodeJS as a side project (also to practice NodeJS since I just started learning NodeJS).
 
 So I have deployed this to Heroku and the data can be fetched from:
 
