@@ -47,7 +47,7 @@ function getCoordinates(data){
 	var rawCoordinates = data.split(' ');
 	var polishedCoordinates = []
 	for(x in rawCoordinates){
-    coord = rawCoordinates[x].split(",");
+        coord = rawCoordinates[x].split(",");
 		polishedCoordinates.push(coord.reverse());
 	}
 	return polishedCoordinates;
