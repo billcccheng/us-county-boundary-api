@@ -9,8 +9,7 @@ var allowCrossDomain = function(req, res, next) {
     // intercept OPTIONS method
     if ('OPTIONS' == req.method) {
       res.send(200);
-    }
-    else {
+    } else {
       next();
     }
 };
@@ -20,7 +19,6 @@ app.use(allowCrossDomain);
 app.get('/api',function(req, res){
 	fs.readFile(__dirname + '/states/' + req.query.state + '.json', function(err, data){
 		if(err){
-//			console.log("No Such State");
 			res.send("No such State");
 			return;
 		}
@@ -54,7 +52,6 @@ function getCoordinates(data){
 }
 
 var server = app.listen(process.env.PORT||8080, function(){
-//	var host = server.address().address;
 	var port = server.address().port;
 	console.log("App running on port %s ",port);
 });
